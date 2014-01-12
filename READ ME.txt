@@ -1,0 +1,26 @@
+POOL - by: Tommy Chen
+
+This game is a simple 2-player pool game. The rules are very basic:
+- Each player take turns to shoot the cue ball.
+- The user interface is controlled by the mouse. The angle of a hit is determined by the position of the mouse. The power of a hit is determined by the time that the mouse button is held down.
+- 1 point is awarded for each ball (except for the cue ball) pocketed into the 4 pockets located in the corners of the table.
+- 2 points are deducted for pocketing the cue ball.
+
+Impulse Physics Engine
+- The physics engine is the main focus of this project. It runs in the background as a basis for the game.
+- It has a dynamic positioning system, which calculates the vectors of balls based on input forces.
+- It has a rigid-body collision detection system, which checks to see if any balls have collided into each other or into a wall.
+- It has a collision response system, which response to a collision detected by the collision detection system. This means that balls will bounce off other balls and walls at correct vectors.
+- Friction is taken into consideration.
+
+Cheats
+enter : restart
+space : pause
+esc : quit
+shift : force field
+f1 : gravity
+- : delete a ball
+= : add a ball
+arrow keys : push on cue ball
+` : system messages
+
